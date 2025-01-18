@@ -24,4 +24,5 @@
   - name: unzip backend code # unzip ansible file
     ansible.builtin.unarchive:
       src:  /tmp/backend.zip
-      dest: /app
+      dest: /app 
+      remote_src: yes # file is already in remote machine
