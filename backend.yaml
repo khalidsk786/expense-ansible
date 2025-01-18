@@ -26,3 +26,6 @@
       src:  /tmp/backend.zip
       dest: /app 
       remote_src: yes # file is already in remote machine
+  - name: install dependencies # NPM install
+    community.general.npm:
+      path: /app
