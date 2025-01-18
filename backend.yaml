@@ -10,9 +10,9 @@
     ansible.builtin.package:
       name: "{{ item }}"
       state: present
-      loop:
-      - nodejs
-      - mysql
+    loop:
+    - nodejs
+    - mysql
   
   - name: create expende user # user add Expense
     ansible.builtin.user:
