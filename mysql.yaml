@@ -15,9 +15,9 @@
 # connect to mysql server
   - name: connect to mysqlserver
     community.mysql.mysql_info:
-    login_user: root
-    login_password: Expenseapp@1
-    login_host: mysql.khalidaws82.tech
+     login_user: root
+     login_password: Expenseapp@1
+     login_host: mysql.khalidaws82.tech
     register: mysql_info
   - name: print the output
     ansible.builtin.debug:
