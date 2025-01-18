@@ -52,5 +52,5 @@
       name: all
       login_user: root
       login_password: ExpenseApp@1
-      login_host: mysql.daws82s.online
+      login_host: mysql.khalidaws82s.tech
       target: /app/schema/backend.sql
