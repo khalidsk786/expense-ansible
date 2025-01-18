@@ -26,4 +26,4 @@
   - name: print the output
     ansible.builtin.debug:
      msg: "mysql info: {{ mysql_info }}"
-     ignore_erroes: true #ignore the error out put
+     ignore_errors: true #ignore the error out put
